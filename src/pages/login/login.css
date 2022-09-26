@@ -1,0 +1,29 @@
+.bodylogin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    padding: 30px;
+    gap: 100px;
+
+    background-image: radial-gradient(farthest-corner at 40px 40px,
+    black 0%,
+  /*   #43e 100% */
+      purple 100%
+     );
+}
+
+.rightBody{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  padding: 80px;
+  gap: 10px;
+}
+
+.loginaccount{
+  color: white;
+}

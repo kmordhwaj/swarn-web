@@ -1,0 +1,167 @@
+.navbar{
+    /* height: 80px; */
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    /* flex: 1; */
+    background: linear-gradient(130deg, black ,purple);
+    min-width: 350px;
+}
+
+.navContainer{
+    width: 100% ;
+    /* max-width: 1024px; */
+    color: dark ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navT{
+    display: flex; 
+    font-weight: bold;
+    gap: 30px;
+    font-size: 21px;
+}
+
+.navTs{
+    color: darkmagenta ;
+    text-decoration: none;
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px grey;
+    background: linear-gradient(130deg, lightskyblue, lightgreen );
+    box-shadow: 2px 2px lightcyan;
+}
+
+.logo{
+    display: flex;
+    justify-self: center;
+}
+
+.navButton{
+    margin-left: 20px;
+    border-radius: 4px;
+    border: none;
+    padding: 5px 5px;
+    cursor: pointer;
+    color: purple;
+}
+
+.navItemss{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    margin-left: 5px;
+    align-items: center;
+    flex-direction: row;
+}
+
+.contactSupport{
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row; 
+    gap: 10px;
+}
+
+.buttoncol{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.popupcontents{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.circleAvatarNew{
+    height: 10px;
+    width: 10px;
+    display: inline;
+    /* align-items: center;
+    justify-content: center;
+    align-self: center; */
+    object-fit: cover;
+}
+
+.contactS{
+    text-decoration: none;
+}
+
+.navMenu{
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+}
+
+.menuContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    text-align: end;
+    padding: 1rem;
+    position: absolute;
+    flex: 2;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0 0 5 grey;
+    background-color: black;
+}
+
+.menuContainer-links{
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+}
+
+.menucontainer-contacts{
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.contactSupportM{
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row; 
+    gap: 10px;
+}
+
+.menuButton{
+    cursor: pointer;
+}
+
+@media screen and (max-width:1050px) {
+    .navT{
+        display: none;
+    }
+
+    .navItemss{
+        display: none;
+    }
+
+    .navMenu{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

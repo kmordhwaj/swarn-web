@@ -1,0 +1,24 @@
+.dropdown{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border: grey 2px solid;
+    border-radius:5px;
+    max-width: 1024px;
+    width: 100%;
+    background-color: aliceblue;
+    gap: 5px;
+    box-shadow: -2px -2px lightgrey;
+}
+
+.dropdowntitle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdowndesc{
+    background-color: lightgrey;
+    padding: 5px;
+    border-radius: 5px;
+
+}

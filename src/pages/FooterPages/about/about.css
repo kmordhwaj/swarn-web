@@ -1,0 +1,19 @@
+.about{
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px;
+}
+
+
+@media screen and (max-width:468px) {
+    .about{
+       flex-direction: column;
+    }
+}
+
+.aboutpara{
+    max-width: 1024px;
+}
+

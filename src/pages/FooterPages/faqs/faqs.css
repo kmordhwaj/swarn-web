@@ -1,0 +1,16 @@
+.offers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1150px;
+    width: 100%;
+    margin-top: 20px;
+    gap: 5px;
+    align-self: center;
+    padding: 4px;
+}
+
+.titleFaq{
+    margin-bottom: 20px;
+}

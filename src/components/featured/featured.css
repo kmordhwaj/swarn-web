@@ -1,0 +1,40 @@
+.featured{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+    z-index: 1;
+}
+
+.featuredItem{
+    position: relative;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 169px;
+}
+
+.featuredImg{
+    width: 100%;
+    max-width: 167px;
+    height: 167px;
+    object-fit: cover;
+}
+
+.featuredTitle{
+position: absolute;
+bottom: 0px;
+left: 10px;
+gap: 0;
+}
+
+.featuredTitle>h3{
+   text-shadow: 2px 2px black;
+   font-weight: bold;
+}
+
+.featuredTitle>h5{
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+ }

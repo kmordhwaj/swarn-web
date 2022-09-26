@@ -1,0 +1,39 @@
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 750px;
+    width: 100%;
+    padding: 5px;
+}
+
+.contactimg3{
+    margin: 10px;
+    cursor: pointer;
+    height: 440px;
+    width: 470px;
+    margin-bottom: 150px;
+    max-width: 470px;
+}
+
+@media screen and (max-width:650px) {
+    .contact{
+        flex-direction: column;
+        gap: 20px;    
+    }
+
+    /* .contactimg3{
+        height: 330px;
+        width: 350px;
+    } */
+/* 
+    .contactimg3{
+        height: 230px ;
+        width: 250px;
+        margin-bottom: 40px;    
+    } */
+
+}
+
+
+

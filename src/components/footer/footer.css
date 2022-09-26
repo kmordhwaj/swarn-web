@@ -1,0 +1,92 @@
+.footer{
+    width: 100%;
+    padding: 20px;
+   /* max-width: 1024px;  */
+    font-size: 12px;
+    background: linear-gradient(130deg, darkred, darkviolet );
+    color: white;
+}
+
+.fLists{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding: 10px;
+
+}
+
+.fListsL{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fList{
+    list-style: none;
+    padding-right: 14px;
+}
+
+.fListR{
+    list-style: none;
+    padding-right: 14px;
+    /* display: flex; */
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.fListItemB{
+    margin-bottom: 12px;
+    color: lightgreen;
+    font-weight: bold;
+}
+
+.fListItem{
+    margin-bottom: 10px;
+    color: white ;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.fListItemS{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.fLisr{
+    margin-top: 30px;
+}
+
+.fListItemRb{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 12px;
+}
+
+.fListItemRbs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1px;
+}
+
+.fText{
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-shadow: 2px 1px grey; 
+    text-align: center;
+}
+
+@media screen and (max-width:650px) {
+    .fListsL{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fText{
+        text-align: start;
+    }
+}

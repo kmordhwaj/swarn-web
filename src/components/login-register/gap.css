@@ -1,0 +1,15 @@
+.gap{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.line{
+    width: 240px;
+    height: 2px;
+    background-color: white;
+}

@@ -1,0 +1,24 @@
+`mailto:info@swarnholidays.com?subject=Please Show me best deal&body=check out this video`
+
+description
+highlights
+images  
+product_type => property_type
+rating
+search_tags
+seller
+title
+variant => city
+
+-rentOwnerDp
+-rentOwnerId
+-discount_price
+-original_price
+-owner
+-post id
+-postmediaurl
+
+
+target="_blank" //anchor tag new tab
+
+style={{ textDecoration: 'none' }} //remove underline from anchor and link

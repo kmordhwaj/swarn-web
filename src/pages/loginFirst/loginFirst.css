@@ -1,0 +1,46 @@
+.loginfaccount{
+    border-radius: 14px;
+    border: none;
+    width: 350px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+    background:linear-gradient(100deg, blue, green)
+}
+
+.bodyloginf{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    padding: 70px;
+    gap: 100px;
+
+    background-image: radial-gradient(farthest-corner at 40px 40px,
+    black 0%,
+  /*   #43e 100% */
+      purple 100%
+     );
+}
+
+.alreadylf{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.lfrbody{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.rightBodyf{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+}

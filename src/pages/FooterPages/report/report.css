@@ -1,0 +1,40 @@
+.report{
+    border: darkslateblue 2px solid;
+    border-radius: 10px;
+    max-width: 1024px;
+    width: 100%;
+    padding: 1rem;
+    box-shadow: -1px -1px 4px 4px lightcoral;
+}
+
+.reportAbout{
+    border: slategray 2px ;
+    border-radius: 10px;
+    max-width: 950px;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.reportInpDec{
+    cursor: pointer;       
+}
+
+.reportInpTitle{
+    height: 25px;
+}
+
+.rButton{
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: none;
+  background: linear-gradient(130deg, purple, red);
+  font-size: large;
+  color: white;
+  margin-top: 10px;
+  box-shadow: 1px 1px lightcoral;
+  cursor: pointer;
+}

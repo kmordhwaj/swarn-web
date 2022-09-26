@@ -1,0 +1,74 @@
+.logo{
+    display: flex;
+    justify-self: center;
+}
+
+.bodyReg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    padding: 5px;
+    gap: 100px;
+    background-image: radial-gradient(farthest-corner at 40px 40px,
+    black 0%,
+  /*   #43e 100% */
+      purple 100%
+     );
+}
+.rightBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+.textInput{
+    height: 35px;
+    width: 350px;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    background: linear-gradient(130deg, lightgrey,lightblue );
+}
+
+
+
+.text{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+
+.login{
+    margin-top: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navButto{  
+    border-radius: 14px;
+    border: none;
+    width: 350px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+    background:linear-gradient(100deg, blue, green)
+}

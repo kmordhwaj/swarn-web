@@ -1,0 +1,26 @@
+.gallerycard{
+    border: blueviolet 2px solid;
+    margin: 3rem;
+    padding: 1rem;
+    border-radius: 20px;
+    background: linear-gradient(130deg, lightgrey, lightblue);
+}
+
+.gallerylink{
+    text-decoration: none;
+}
+
+
+.gallerycard>img{
+   height: 220px;
+   width: 300px;
+   border-radius: 15px;
+}
+
+.legendg{
+    size: 40px;
+}
+
+.stardirection{
+    display: flex;
+}
