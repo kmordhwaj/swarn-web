@@ -1,5 +1,4 @@
 import React,{useEffect, useState} from 'react';
-import './test.css';
 import { useParams } from 'react-router-dom';
 import {db} from '../../firebase-config.js';
 import {toast} from 'react-toastify';

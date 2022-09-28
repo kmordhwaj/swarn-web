@@ -61,7 +61,7 @@ const Banner = () => {
                 centerMode="true"
                 infiniteLoop="true"
                 className="corousel"
-                dynamicHeight="true"
+                // dynamicHeight="true"
                 showIndicators="true"
                 showThumbs="false"
               >

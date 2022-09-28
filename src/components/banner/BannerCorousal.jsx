@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 const BannerCorousal = ({ listing, id }) => {
   return (
     <Link to={`/banner/${id}`}>
-      <div className="cimg" key={id}>
-        <img src={listing.img} />
+      <div key={id}>
+        <img src={listing.img} className="bannerImg" />
         <p className="legend">{listing.name}</p>
       </div>
     </Link>

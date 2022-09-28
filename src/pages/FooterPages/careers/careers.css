@@ -9,3 +9,13 @@
 .containerCareer{
     margin: 3rem;
 }
+
+.careerImg{
+    height: 450px;
+}
+
+@media screen and (max-width:600px) {
+    .careerImg{
+      height: 250px;      
+    }
+}

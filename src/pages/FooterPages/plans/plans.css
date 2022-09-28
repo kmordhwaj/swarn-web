@@ -11,7 +11,6 @@
 }
 
 .articleh{
-    /* height: 100%; */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -19,9 +18,6 @@
     place-items: center;
     padding: 5px 10px;
     width: 506px;
-    /* max-width: 514px;
-    min-width: 350px;
-    width: 100%; */
     height: 200px;
     border-radius: 25px;
     box-shadow: -1px -1px 4px 4px lightgoldenrodyellow;

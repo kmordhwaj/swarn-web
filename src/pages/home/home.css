@@ -3,7 +3,7 @@
 }
 
 .home{
-   background: linear-gradient(170deg ,lightgreen, lightcyan )
+   background: linear-gradient(170deg ,lightgreen, lightcyan );
 }
 
 .homeContainer{
@@ -16,7 +16,7 @@
 }
 
 .homeTitle{
-    width: 1024px;
+    margin-top: 30px;
     font-size: 20px;
 }
 

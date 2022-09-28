@@ -41,6 +41,8 @@ const ContactUs = () => {
             >
               <img
                 src={`${process.env.PUBLIC_URL}/images/address.png`}
+
+                className= "mapImg"
                 // alt=""
                 // // height={400}
                 // // width={400}

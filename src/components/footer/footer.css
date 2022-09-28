@@ -1,7 +1,6 @@
 .footer{
     width: 100%;
     padding: 20px;
-   /* max-width: 1024px;  */
     font-size: 12px;
     background: linear-gradient(130deg, darkred, darkviolet );
     color: white;
@@ -29,7 +28,6 @@
 .fListR{
     list-style: none;
     padding-right: 14px;
-    /* display: flex; */
     padding: 5px;
     margin-bottom: 10px;
 }
@@ -59,8 +57,6 @@
 
 .fListItemRb{
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
     gap: 12px;
 }
 

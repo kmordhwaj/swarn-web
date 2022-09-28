@@ -124,7 +124,7 @@ const Header = ({ type }) => {
                 </a>
               </div>
             </Popup>
-            <div className="headerSearch">
+            {/* <div className="headerSearch">
               <div className="headerSearchItem">
                 <FontAwesomeIcon icon={faBed} className="headerIcon" />
                 <input
@@ -236,7 +236,7 @@ const Header = ({ type }) => {
                   Search
                 </button>
               </div>
-            </div>
+            </div> */}
           </>
         )}
       </div>

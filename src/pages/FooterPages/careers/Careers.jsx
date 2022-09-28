@@ -13,7 +13,11 @@ const Careers = () => {
         </div>
         <div className="contactCareer">
           <div>
-            <img src={`${process.env.PUBLIC_URL}/images/job.png`} alt="job" />
+            <img
+              src={`${process.env.PUBLIC_URL}/images/job.png`}
+              alt="job"
+              className="careerImg"
+            />
           </div>
           <div className="ContainerCareer">
             Sorry! <br /> No current openings here.

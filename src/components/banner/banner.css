@@ -1,10 +1,95 @@
-.banneer{
-    max-width: 1024px;
-    width: 100%;
-
-    /* @media screen and (max-width:650px) {
-       .banneer{
-        height: 200px;
-       }
-    } */
+.bannerImg{
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    padding: 3px;
 }
+
+.bannerUp{
+    height: 520px;
+    width: 100%;
+    display: flex;
+    
+}
+
+@media screen and (max-width:1010px) {
+    .bannerUp{
+        height: 490px;
+        width: 1000px;
+    
+    }
+
+    .bannerImg{
+     height: 500px;
+     width: 900px;
+     
+    }
+ }
+
+ @media screen and (max-width:910px) {
+    .bannerUp{
+        height: 440px;
+        width: 900px;
+        
+    }
+
+    .bannerImg{
+     height: 440px;
+     width: 780px;
+     
+    }
+ }
+
+ @media screen and (max-width:800px) {
+    .bannerUp{
+        height: 400px;
+        width: 790px;
+    }
+
+    .bannerImg{
+     height: 370px;
+     width: 640px;
+     
+    }
+ }
+
+@media screen and (max-width:650px) {
+    .bannerUp{
+        height: 320px;
+        width: 620px;
+    }
+
+   .bannerImg{
+    height: 330px;
+    width: 560px;
+
+   }
+}
+
+@media screen and (max-width:570px) {
+    .bannerUp{
+        height: 250px;
+        width: 550px;
+        
+    }
+
+    .bannerImg{
+     height: 255px;
+     width: 430px;
+    
+    }
+ }
+
+ @media screen and (max-width:440px) {
+    .bannerUp{
+        height: 200px;
+        width: 350px;
+        
+    }
+
+    .bannerImg{
+     height: 215px;
+     width: 340px;
+    
+    }
+ }

@@ -3,9 +3,32 @@ img1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    align-self: center;
+    gap: 20px;
+    padding: 20px;
 }
 
 .logo1{
+    height: 130px ; 
+    width: 260px ;
     margin-left: 100px;
+}
+
+.logo2{
+    height: 350px; width: 500px ; margin-left: 10px;
+}
+
+@media screen and (max-width:550px) {
+    .logo1{
+        height: 100px ; 
+        width: 200px ;
+        margin-left: 80px;
+    }
+
+    .logo2{
+        height: 250px;
+        width: 350px;
+        align-self: center;
+        margin-left: 5px;
+    }
 }

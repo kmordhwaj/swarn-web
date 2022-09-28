@@ -2,9 +2,7 @@
     background: linear-gradient(130deg, black , purple );
     color: white;
     display: flex;
-    justify-content: center;
-    /* position: relative; */
-    
+    justify-content: center;   
 }
 
 .headerContainer{

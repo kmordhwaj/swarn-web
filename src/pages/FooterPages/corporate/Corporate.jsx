@@ -21,7 +21,7 @@ const Corporate = () => {
               <img
                 src={`${process.env.PUBLIC_URL}/images/corporate_meet.png`}
                 alt="corporate"
-                height={600}
+                className="corpImg"
               />
             </a>
           </div>

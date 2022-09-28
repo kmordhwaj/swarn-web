@@ -1,0 +1,9 @@
+.corpImg{
+    height: 600px;
+}
+
+@media screen and (max-width:550px) {
+    .corpImg{
+      height: 300px;
+    }
+}

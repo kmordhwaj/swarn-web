@@ -19,11 +19,11 @@ const FeaturedProperties = () => {
       </div>
       <div className="fpItem">
         <img
-          src="https://image.wedmegood.com/resized/800X/uploads/member/1342470/1641542088_Screenshot_from_2022_01_07_13_22_25.png"
+          src="http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcQ8ZNg-B-wKQ7hm2pID7S4ylFKG37cl-gIFPgmrgZ679jH4xmjpRia-t3ldtEu10GzT"
           alt=""
           className="fpImg"
         />
-        <span className="fpName">Hilton Resort</span>
+        <span className="fpName">Palolem beach</span>
         <span className="fpCity">Goa</span>
         {/* <span className="fpPrice">Rs 458 per day</span> */}
         <div className="fpRating">
@@ -33,11 +33,11 @@ const FeaturedProperties = () => {
       </div>
       <div className="fpItem">
         <img
-          src="https://cdn0.weddingwire.in/vendor/1140/3_2/960/jpeg/6152f0ba-ec13-4a68-9222-3b6a5da5ce24_15_71140-162185968397671.jpeg"
+          src="https://www.planetware.com/wpimages/2019/08/india-mumbai-top-attractions-bandra-worli-sea-link.jpg"
           alt=""
           className="fpImg"
         />
-        <span className="fpName">Shubham Villa</span>
+        <span className="fpName">Bandra Sea-link</span>
         <span className="fpCity">Mumbai</span>
         {/* <span className="fpPrice">Rs 343 per day</span> */}
         <div className="fpRating">
@@ -47,11 +47,11 @@ const FeaturedProperties = () => {
       </div>
       <div className="fpItem">
         <img
-          src="https://www.giorgettimeda.com/media/immagini/6246_z_Delhi_Penthouse_00.jpg"
+          src="https://www.thelalit.com/wp-content/uploads/2017/01/City-Attraction1-New-Delhi-e1493635162496-760-320.jpg"
           alt=""
           className="fpImg"
         />
-        <span className="fpName">Georgetti penthouse</span>
+        <span className="fpName">Lotus Temple</span>
         <span className="fpCity">Delhi</span>
         {/* <span className="fpPrice">Rs 458 per day</span> */}
         <div className="fpRating">
@@ -61,11 +61,11 @@ const FeaturedProperties = () => {
       </div>
       <div className="fpItem">
         <img
-          src="https://cdnassets.hw.net/c8/80/3c8d235044798327029f5159abbc/afbd1cf55fab4763a7e3d1c3786819d6.jpg"
+          src="https://www.fabhotels.com/blog/wp-content/uploads/2019/02/Victoria-Memorial-Sound-and-Light-Show.jpg"
           alt=""
           className="fpImg"
         />
-        <span className="fpName">Southwind clubhouse</span>
+        <span className="fpName">Victoria Memorial</span>
         <span className="fpCity">Kolkata</span>
         {/* <span className="fpPrice">Rs 343 per day</span> */}
         <div className="fpRating">
