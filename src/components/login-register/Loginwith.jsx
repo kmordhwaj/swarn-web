@@ -42,13 +42,13 @@ const Loginwith = ({}) => {
         alt="logo"
         className="imgl"
       />
-      <img
+      {/* <img
         onClick={fbLogin}
         style={{ height: 50, width: 50 }}
         src={`${process.env.PUBLIC_URL}/images/fbook.png`}
         alt="logo"
         className="imgl"
-      />
+      /> */}
     </div>
   );
 };
