@@ -119,7 +119,10 @@ const Footer = () => {
                   </div>
                 </li>
               </a>
-              <a target="_blank" href="https://youtube.com/channel/UCXa0MEgdyYxOt8qyZ1HgC9w">
+              <a
+                target="_blank"
+                href="https://youtube.com/channel/UCXa0MEgdyYxOt8qyZ1HgC9w"
+              >
                 <li className="fListItem">
                   <div className="fListItemS">
                     <img
@@ -136,7 +139,7 @@ const Footer = () => {
           <ul className="fListR">
             <li className="fListItemB">DOWNLOAD APP</li>
             <div className="fListItemRbs">
-              <a target="_blank" href="https://fb.me/mordhwaaz94">
+              <a target="_blank" href="https://www.instagram.com/swarnholidays">
                 <li className="fListItem">
                   <div className="fListItemS">
                     <img
@@ -148,7 +151,7 @@ const Footer = () => {
                   </div>
                 </li>
               </a>
-              <a target="_blank" href="https://fb.me/mordhwaaz94">
+              <a target="_blank" href="https://www.instagram.com/swarnholidays">
                 <li className="fListItem">
                   <div className="fListItemS">
                     <img
