@@ -136,7 +136,7 @@ const Footer = () => {
               </a>
             </div>
           </ul>
-          <ul className="fListR">
+          {/* <ul className="fListR">
             <li className="fListItemB">DOWNLOAD APP</li>
             <div className="fListItemRbs">
               <a target="_blank" href="https://www.instagram.com/swarnholidays">
@@ -164,7 +164,7 @@ const Footer = () => {
                 </li>
               </a>
             </div>
-          </ul>
+          </ul> */}
         </div>
       </div>
       <div className="fText">Copyright © 2022 Swarn Holidays</div>
