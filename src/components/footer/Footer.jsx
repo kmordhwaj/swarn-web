@@ -92,7 +92,7 @@ const Footer = () => {
                   </div>
                 </li>
               </a>
-              <a target="_blank" href="https://fb.me/mordhwaaz94">
+              <a target="_blank" href="https://twitter.com/SwarnHolidays">
                 <li className="fListItem">
                   <div className="fListItemS">
                     <img
@@ -119,7 +119,7 @@ const Footer = () => {
                   </div>
                 </li>
               </a>
-              <a target="_blank" href="https://fb.me/mordhwaaz94">
+              <a target="_blank" href="https://youtube.com/channel/UCXa0MEgdyYxOt8qyZ1HgC9w">
                 <li className="fListItem">
                   <div className="fListItemS">
                     <img

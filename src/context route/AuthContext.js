@@ -93,55 +93,6 @@ export const AuthContextProvider = ({children}) => {
     )
   }
 
-  // const signinwithGoogle = async () => {
-  //   if (this.platform.is('cordova')) {
-  //     return this.gl.login(['email', 'public_profile']).then(res => {
-  //       const googleCredential = auth.GoogleAuthProvider.credential(res.authResponse.accessToken);
-  //       return auth.signInWithCredential(googleCredential);
-  //     })
-  //   }
-  //   else {
-  //     return auth
-  //       // .signInWithPopup(new firebase.auth.GoogleAuthProvider())
-  //       // .then(res => console.log(res));
-  //      .signInWithPopup(auth, provider).then(
-  //         async (resultz) => {
-  //         try{
-  //               const docRef = await addDoc(postCollectionRef, {
-  //                   id: resultz.user.uid ,
-  //         firstName: resultz.user.photoUrl ,
-  //         secondName: '',
-  //         profileImageUrl: resultz.user.photoURL ,
-  //         email: resultz.user.email ,
-  //         bio: null,
-  //         timeCreated: timeNow.toLocaleString() ,
-  //         phone: resultz.user.phoneNumber ,
-  //         favourite_products: {},
-  //               }
-  //               );
-  //               console.log('doc written with id : ', docRef.id);
-  //           } catch (err){
-  //                 console.error('error adding doc: ', err);
-  //           }
-  //       }
-  //         )
-  //   }
-  // }
-
-  // signInWithGoogle() {
-  //   if (this.platform.is('cordova')) {
-  //     return this.gl.login(['email', 'public_profile']).then(res => {
-  //       const googleCredential = firebase.auth.GoogleAuthProvider.credential(res.authResponse.accessToken);
-  //       return firebase.auth().signInWithCredential(googleCredential);
-  //     })
-  //   }
-  //   else {
-  //     return this.afAuth.auth
-  //       .signInWithPopup(new firebase.auth.GoogleAuthProvider())
-  //       .then(res => console.log(res));
-  //   }
-  // }
-
   const signinwithFb = async () => {
     await signInWithPopup(auth, fbProvider).then(
      async (resultz) => {
