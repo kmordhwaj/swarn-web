@@ -5,7 +5,7 @@ import Loginwith from "../../components/login-register/Loginwith";
 import { UserAuth } from "../../context route/AuthContext";
 import { Link, useNavigate } from "react-router-dom";
 
-const LoginForm = () => {
+const LoginForm = ({ setAuth }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");

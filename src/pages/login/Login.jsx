@@ -3,11 +3,11 @@ import Image from "../../components/login-register/Image";
 
 import LoginForm from "../../components/login-register/LoginForm";
 
-const Login = () => {
+const Login = ({setAuth}) => {
   return (
     <div className="bodyReg">
       <Image />
-      <LoginForm />
+      <LoginForm setAuth= {setAuth}/>
     </div>
   );
 };

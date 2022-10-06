@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route } from "react-router-dom";
+import {BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Home from "./pages/home/Home";
 import List from "./pages/lists/List";
 import Hotel from "./pages/hotel/Hotel";
@@ -32,18 +32,36 @@ import Platinum from "./pages/plans/Platinum";
 import Diamond from "./pages/plans/Diamond";
 import Gold from "./pages/plans/Gold";
 import Silver from "./pages/plans/Silver";
+import { userAuth} from "./context route/AuthContext";
+import { useEffect } from "react";
 
 function App() {
 
-  const [isAuth, setIsAuth] = useState(false);
+  // const navigate = useNavigate();
+
+  const [isAuthenticated, setIsAuthenticated] = useState(
+    () => JSON.parse(localStorage.getItem('auth')) || false
+  );
+
+  const setAuth = (value) => {
+    setIsAuthenticated(value);
+  };
+
+  useEffect(() => {
+   localStorage.setItem("auth", JSON.stringify(isAuthenticated));
+  }, [isAuthenticated]);
+
 
   return (
     <BrowserRouter>
      <AuthContextProvider>
      <ToastContainer/>
-     <Routes>
-        
-        <Route path="/" element = {<Login  setIsAuth={setIsAuth} />}/>
+     <Routes>        
+        <Route path="/" element = {
+          isAuthenticated 
+          ? <Navigate to="/home" replace/>
+          : <Login setAuth= {setAuth}/>    
+        }/>
         <Route path="/register" element = {<Register/>}/>
         <Route path="/loginfirst" element = {<LoginFirst/>}/>
         <Route path="/test" element = {<Test/>} />        
