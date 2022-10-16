@@ -5,7 +5,7 @@ This is a full stack web app.
 <p>*<a href="https://www.npmjs.com/package/gh-pages" target="blank"> gh-pages <a/><p/>
 <p>*<a href="https://www.npmjs.com/package/date-fns" target="blank"> date-fns <img width="50" height="30" align="center" src="https://raw.githubusercontent.com/date-fns/date-fns/master/docs/logotype.svg" /> <a/><p/>
 <p>*<a href="https://www.npmjs.com/package/firebase" target="blank"> firebase <img width="30" height="30" align="center" src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" /> <a/><p/>
-<p>*<a href="https://www.npmjs.com/package/react" target="blank"> react <img width="30" height="30" align="center" src="" /> <a/><p/>
+<p>*<a href="https://www.npmjs.com/package/react" target="blank"> react <img width="30" height="30" align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" /> <a/><p/>
 <p>*<a href="https://www.npmjs.com/package/react-avatar" target="blank"> react-avatar <a/><p/>
 <p>*<a href="https://www.npmjs.com/package/react-bootstrap" target="blank"> react-bootstrap <img width="30" height="30" align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" /> <a/><p/>
 <p>*<a href="https://www.npmjs.com/package/react-date-range" target="blank"> react-date-range <a/><p/>
