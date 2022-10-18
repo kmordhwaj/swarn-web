@@ -1,5 +1,5 @@
 # Swarn Web
-This is a full stack web app.
+This is a concept full stack web app.
 
 <h3 align="left">Various repositories I have used here:</h3>
 <p>*<a href="https://www.npmjs.com/package/gh-pages" target="blank"> gh-pages <a/><p/>
