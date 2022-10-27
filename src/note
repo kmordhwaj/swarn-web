@@ -18,7 +18,8 @@ variant => city
 -post id
 -postmediaurl
 
+"homepage": "https://swarnholidays.com",
 
-target="_blank" //anchor tag new tab
+target="\_blank" //anchor tag new tab
 
 style={{ textDecoration: 'none' }} //remove underline from anchor and link
