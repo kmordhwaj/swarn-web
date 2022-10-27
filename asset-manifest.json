@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/swarn-web/static/css/main.05d66941.css",
+    "main.js": "/swarn-web/static/js/main.7ee572a2.js",
+    "static/media/diamond.jpg": "/swarn-web/static/media/diamond.e1b3f1e63e735b46de7e.jpg",
+    "static/media/silver.jpg": "/swarn-web/static/media/silver.5568c396067097ef9704.jpg",
+    "static/media/golden.jpg": "/swarn-web/static/media/golden.9d9b583a386ffeed72ca.jpg",
+    "index.html": "/swarn-web/index.html",
+    "main.05d66941.css.map": "/swarn-web/static/css/main.05d66941.css.map",
+    "main.7ee572a2.js.map": "/swarn-web/static/js/main.7ee572a2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05d66941.css",
+    "static/js/main.7ee572a2.js"
+  ]
+}
