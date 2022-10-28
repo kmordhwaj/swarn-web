@@ -58,9 +58,10 @@ function App() {
      <ToastContainer/>
      <Routes>        
         <Route path="/" element = {
-          isAuthenticated 
-          ? <Navigate to="/home" replace/>
-          : <Login setAuth= {setAuth}/>    
+          // isAuthenticated 
+          // ? <Navigate to="/home" replace/>
+          // :
+           <Login />  
         }/>
         <Route path="/register" element = {<Register/>}/>
         <Route path="/loginfirst" element = {<LoginFirst/>}/>
